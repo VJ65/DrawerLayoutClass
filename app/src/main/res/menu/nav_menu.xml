@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Idea"
+            android:icon="@drawable/user"
+            android:title="@string/User" />
+        <item
+            android:id="@+id/nav_photos"
+            android:icon="@drawable/facebook"
+            android:title="Facebook" />
+        <item
+            android:id="@+id/nav_movies"
+            android:icon="@drawable/whatsapp"
+            android:title="Whatsapp"
+            android:iconTintMode="add"/>
+
+
+
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/email"
+            android:title="Email" />
+    </group>
+<group android:checkableBehavior="single">
+    <item android:title="Other">
+        <menu>
+            <item
+                android:id="@+id/contacts"
+
+                android:title="Contacts" />
+            <item
+                android:id="@+id/nav_privacy_policy"
+                android:title="Know Me ?" />
+        </menu>
+    </item>
+</group>
+</menu>
